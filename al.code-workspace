@@ -4,6 +4,9 @@
       "path": "MyFirstProject"
     },
     {
+      "path": "MyFirstProject.Test"
+    },
+    {
       "path": ".AL-Go"
     }
   ],
