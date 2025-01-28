@@ -1,5 +1,64 @@
 {
     "version": "0.2.0",
-    "configurations": [
-    ]
-}
+    
+        "configurations": [
+    
+           
+    
+            {
+    
+                "name": "Microsoft cloud sandbox",
+    
+                "request": "launch",
+    
+                "type": "al",
+    
+                "environmentType": "Sandbox",
+    
+                "environmentName": "SandBox",
+    
+                "tenant": "c8080193-be2e-403c-9524-3515ff80b32e",
+    
+                "startupObjectId": 22,
+    
+                "startupObjectType": "Page",
+    
+                "breakOnError": true,
+    
+                "launchBrowser": true,
+    
+                "enableLongRunningSqlStatements": true,
+    
+                "enableSqlInformationDebugger": true,
+    
+                "schemaUpdateMode": "ForceSync"
+    
+            },
+    
+            {
+    
+                "name": "snapshotInitialize: Microsoft production cloud",
+    
+                "type": "al",
+    
+                "request": "snapshotInitialize",
+    
+                "environmentType": "Production",
+    
+                "environmentName": "production",
+    
+                "breakOnNext": "WebClient",
+    
+                "executionContext": "DebugAndProfile",
+    
+                "userId": "ERP.ADMIN",
+    
+                "snapshotVerbosity": "Full"
+    
+     
+    
+            }
+    
+        ]
+    
+    }
